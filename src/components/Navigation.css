@@ -1,0 +1,37 @@
+.Navigation {
+  width: 70px;
+  text-align: center;
+  padding: 0.5rem;
+  height: 100%;
+  border-right: 1px solid #242721;
+}
+
+.side-nav li {
+  padding: 0.3rem;
+  cursor: pointer;
+  margin-bottom: 0.5rem;
+  border-bottom: 1px solid #242721;
+}
+
+.side-nav li a {
+  text-decoration: none;
+}
+
+.side-nav li span {
+  display: block;
+  font-size: 12px;
+}
+
+.nav-links {
+  color: #000;
+  transition: all ease-in-out 0.4s;
+}
+
+.nav-links:hover {
+  color: var(--light-blue);
+}
+
+.nav-active {
+  color: var(--light-blue);
+  /* border-bottom: 1px solid var(--light-blue); */
+}

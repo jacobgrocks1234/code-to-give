@@ -1,0 +1,30 @@
+.LandingPage {
+  background-color: #fff;
+  flex: 1;
+  height: 100vh;
+}
+
+.landing-img-c {
+  text-align: center;
+  height: 100vh;
+}
+
+.landing-img {
+  width: 70%;
+  height: 100%;
+  transform: translateY(-70px);
+}
+
+.landing-text {
+  height: 100%;
+  transform: translateY(20%);
+}
+
+.landing-text p {
+  color: var(--pink);
+  margin-top: 2rem;
+}
+
+.stepper {
+  margin-top: 0.5rem;
+}

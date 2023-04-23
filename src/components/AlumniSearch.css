@@ -1,0 +1,55 @@
+.AlumniSearch {
+  height: 52px;
+  padding-left: 2.5rem;
+  padding-right: 0.5rem;
+  display: flex;
+  align-items: center;
+}
+
+.search-bar {
+  background-color: #535960;
+  width: 25rem;
+  height: 70%;
+  padding: 0.2rem 0.5rem;
+  border-radius: 5px;
+}
+
+#search,
+#location {
+  width: 90%;
+  outline: none;
+  margin-left: 0.5rem;
+  height: 100%;
+  color: var(--grey);
+  padding: 0.3rem 0;
+  border: none;
+  background-color: #535960;
+}
+
+#search::placeholder,
+#location::placeholder {
+  color: var(--grey);
+}
+
+.AlumniSearch i {
+  color: var(--grey);
+}
+
+.location-container {
+  margin-left: 2rem;
+}
+
+.search-btn {
+  margin-left: 2rem;
+  background-color: var(--blue);
+  color: #fff;
+  font-weight: 500;
+  padding: 0.4rem 0.5rem;
+  border: none;
+  cursor: pointer;
+}
+
+.ml-2 {
+  margin-left: 2rem;
+  cursor: pointer;
+}

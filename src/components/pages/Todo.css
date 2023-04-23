@@ -1,0 +1,64 @@
+.Todo {
+  flex: 1;
+  height: 100vh;
+}
+
+.todo-container {
+  margin: 2rem 0;
+}
+
+.todo-column {
+  height: 100%;
+  background-color: #535960;
+  padding: 0.3rem;
+  margin: 0 2.5rem;
+  padding-top: 1rem;
+  margin-bottom: 2.5rem;
+}
+
+.todo-column h3 {
+  color: var(--grey);
+  text-align: center;
+  font-weight: 500;
+  font-size: 15px;
+  margin-bottom: 1rem;
+}
+
+.todo-item {
+  display: flex;
+  align-items: center;
+  padding: 0.8rem;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.todo-item img {
+  width: 40px;
+  height: 35px;
+}
+
+.due {
+  color: var(--grey);
+  font-size: 14px;
+  margin: 0 0.5rem;
+}
+
+.due span {
+  display: block;
+  font-size: 12px;
+  margin-top: 0.2rem;
+  color: var(--yellow);
+}
+
+.c-yellow {
+  color: var(--grey);
+}
+
+.nothing {
+  color: var(--green);
+  margin: 1rem;
+}
+
+.c-green {
+  color: var(--green);
+}

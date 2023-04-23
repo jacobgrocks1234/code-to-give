@@ -1,0 +1,48 @@
+.AlumniTile {
+  width: 90%;
+  text-align: center;
+  padding: 2rem;
+  box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.6);
+  -webkit-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.6);
+  -moz-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.6);
+  margin: 1rem;
+}
+
+.profile-avatar {
+  margin: 1rem 0;
+  display: flex;
+  justify-content: center;
+}
+
+.alumni-info {
+  color: var(--grey);
+}
+
+.alumni-info p {
+  margin-bottom: 0.5rem;
+}
+
+.alumni-info button {
+  width: 90%;
+  background-color: var(--blue);
+  border: none;
+  padding: 0.4rem 0;
+  margin-bottom: 0.5rem;
+  color: var(--grey);
+  font-weight: bold;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: all ease-in 0.5s;
+}
+
+.alumni-info button:hover {
+  background-color: var(--gold);
+  color: var(--dark);
+}
+
+.alumni-icons {
+  color: var(--pink);
+  font-size: 15px;
+  margin-left: 0.4rem;
+  cursor: pointer;
+}

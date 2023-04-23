@@ -1,0 +1,125 @@
+.login-form-container {
+  height: 100vh;
+  position: relative;
+}
+
+.left-container {
+  background-color: var(--white);
+  padding: 5rem 3rem 3rem 3rem;
+  height: 100%;
+}
+
+.left-container input {
+  padding: 0.5rem;
+  border: 1px solid var(--grey);
+  display: block;
+  margin-top: 1rem;
+  width: 100%;
+  outline: none;
+}
+
+.left-container a {
+  background-color: var(--blue);
+  width: 100%;
+  border: none;
+  margin-top: 1rem;
+  padding: 0.5rem;
+  color: var(--white);
+  font-weight: bold;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: all ease-in-out 0.5s;
+  text-decoration: none;
+  display: block;
+  text-align: center;
+}
+
+.left-container a:hover {
+  background-color: var(--gold);
+}
+
+.or-p {
+  margin: 2rem 0;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.icon-outline {
+  border: 1px solid var(--grey);
+  margin-top: 1rem;
+  padding: 0.5rem;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.icon-outline img {
+  width: 20px;
+  height: 20px;
+  margin-right: 0.5rem;
+}
+
+.sign-up-p {
+  text-align: center;
+  font-size: 15px;
+  margin-top: 8rem;
+}
+
+.sign-up-p span {
+  color: var(--blue);
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.line-container {
+  display: flex;
+  align-items: center;
+}
+
+.line {
+  flex-grow: 1;
+  height: 1px;
+  background-color: var(--dark);
+}
+
+.line-text {
+  margin: 0 1rem;
+}
+
+/* Right container */
+.right-container {
+  height: 100%;
+  width: 100%;
+  background-image: url("https://wish.org/sites/default/files/styles/hero_standard_1280_1_5x/public/2023-04/1-14.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: bottom;
+  position: relative;
+}
+
+.bottom-right {
+  position: absolute;
+  right: 30px;
+  bottom: 50px;
+}
+
+.wish-desc {
+  color: var(--gold);
+  font-weight: bold;
+  text-align: right;
+  font-style: italic;
+  margin-bottom: 2rem;
+}
+
+.child-wish-name {
+  font-weight: bold;
+  text-align: right;
+}
+
+.child-wish-name span {
+  display: block;
+  font-weight: 400;
+}

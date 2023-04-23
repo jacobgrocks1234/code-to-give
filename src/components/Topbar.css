@@ -1,0 +1,23 @@
+.Topbar {
+  display: flex;
+  padding: 0.2rem;
+  height: 50px;
+  background-color: var(--dark);
+  justify-content: end;
+  padding-right: 0.5rem;
+}
+
+.make-logo {
+  height: 30px;
+  cursor: pointer;
+}
+
+.square--icons {
+  color: var(--white);
+  padding: 0.4rem;
+  border: 1px solid var(--white);
+  border-radius: 5px;
+  display: inline-block;
+  margin-left: 1rem;
+  cursor: pointer;
+}

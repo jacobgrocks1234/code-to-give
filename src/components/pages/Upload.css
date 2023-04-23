@@ -1,0 +1,47 @@
+.Upload {
+  flex: 1;
+  height: 100vh;
+}
+
+.upload-container {
+  text-align: center;
+  margin-top: 2rem;
+  position: relative;
+  height: 100%;
+}
+
+.upload-container h3 {
+  color: var(--grey);
+  margin-bottom: 1rem;
+  font-weight: 400;
+}
+
+.drag {
+  text-align: center;
+  border: 1px dotted var(--grey);
+  padding: 3rem;
+  width: 30%;
+  margin: auto auto;
+  cursor: pointer;
+  position: relative;
+  top: 40%;
+  transform: translateY(-60%);
+}
+
+.drag i {
+  font-size: 5rem;
+  margin-bottom: 1rem;
+  color: var(--green);
+}
+
+.drag p {
+  color: var(--grey);
+  font-weight: 500;
+}
+
+.drag p span {
+  display: block;
+  font-weight: 400;
+  font-size: 13px;
+  margin-top: 0.5rem;
+}
